@@ -1,0 +1,4 @@
+### Docker env
+docker-env/mysql/data/**/*
+docker-env/phpmyadmin/data/**/*
+docker-env/docker.env
