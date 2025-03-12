@@ -22,7 +22,7 @@ CREATE TABLE posts (
 INSERT INTO users (id, username, email, password_hash)
 VALUES
 ('38962f8b-faf6-11ef-ba73-111111111111', 'John_Smith', 'John_Smith@example.com', 'hashed_password_1'),
-('38962f8b-faf6-11ef-ba73-0242ac130002', 'Shelner', 'shelner.book@gmail.com', 'shelner_hashed_password');
+('38962f8b-faf6-11ef-ba73-0242ac130002', 'Shelner', 'shelner.book@gmail.com', '$2a$10$KLgjXAkd4jCF9KYALdz.qesbN3YIixfGJyIX0TYxIluCN5GTTk1Fm');
 
 INSERT INTO posts (user_id, title, content)
 VALUES
